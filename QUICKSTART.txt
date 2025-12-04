@@ -1,0 +1,93 @@
+================================================================================
+  HEALTH-NET AI - QUICK START GUIDE
+================================================================================
+
+GETTING STARTED
+--------------------------------------------------------------------------------
+1. Open terminal/command prompt
+2. Navigate to project folder: cd path/to/health-net-ai-diabetes-assessment
+3. Run: python app.py
+4. Open browser: http://localhost:7860
+
+PATIENT MODE DEMO (Maria from Kenya)
+--------------------------------------------------------------------------------
+1. Keep "Patient - Self Screening" selected (default)
+2. Check symptoms:
+   [x] Frequent urination (especially at night)
+   [x] Excessive thirst
+   [x] Blurred vision
+3. Check risk factors:
+   [x] Family history of diabetes
+   [x] Overweight/Obese (BMI > 25)
+4. Enter data:
+   - Gender: Female
+   - Age: 52
+   - BMI: 28
+   - HbA1c: 5.8
+   - Country: Kenya
+5. Click "Assess My Risk"
+6. Review results: Screening + AI Assessment
+
+PRACTITIONER MODE DEMO (John from Nigeria)
+--------------------------------------------------------------------------------
+1. Switch to "Healthcare Practitioner" at top
+2. Enter patient data:
+   Basic:
+   - Gender: Male
+   - Age: 45
+   - BMI: 31
+   - HbA1c: 6.8
+
+   Lipid Panel (expand):
+   - Total Cholesterol: 240
+   - Triglycerides: 210
+   - HDL: 38
+   - LDL: 160
+   - VLDL: 42
+
+   Kidney Function (expand):
+   - Urea: 35
+   - Creatinine: 1.1
+
+   Location:
+   - Country: Nigeria
+
+3. Click "Analyze Patient"
+4. Explore all 6 tabs:
+   - Treatment Protocol
+   - Medications
+   - Risk Stratification
+   - SMS to Patient
+   - Referrals
+   - Clinics
+
+KEY FEATURES
+================================================================================
+✓ 95.2% AI accuracy
+✓ Dual interface (Patient + Practitioner)
+✓ Multi-channel access (Web, USSD, SMS)
+✓ 9 African countries coverage
+✓ USSD works on feature phones (*384*7#)
+✓ Treatment protocols with medication costs
+✓ Risk stratification for complications
+
+TROUBLESHOOTING
+================================================================================
+App won't start?
+  → pip install -r requirements.txt
+  → python --version (need 3.8+)
+
+Browser doesn't open?
+  → Manually go to http://localhost:7860
+
+Port already in use?
+  → Close other Gradio apps
+  → Or change port in app.py
+
+Need help?
+  → Email: malpha@andrew.cmu.edu
+  → GitHub: github.com/Nakamoto-ctrl/Health-Net-AI-Diabetes-Assessment
+
+================================================================================
+Ready to present! Good luck with your demo!
+================================================================================
